@@ -1,5 +1,6 @@
-As a user, I want to create an account using email and password.
+As a user, I want to login to acess the platform.
 
-As a user, I want to reset my password if I forget it.
-
-As an admin, I want to disable user accounts.
+Acceptance Criteria:
+- Valid email
+- JWT authentication
+- Password recovery functionality
