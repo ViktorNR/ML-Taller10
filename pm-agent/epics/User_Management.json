@@ -1,0 +1,9 @@
+{
+  "epic": "User Management",
+  "tasks": [
+    {
+      "title": "Implement user account disabling by admin",
+      "priority": "Medium"
+    }
+  ]
+}

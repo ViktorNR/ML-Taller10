@@ -1,0 +1,13 @@
+{
+  "epic": "User Authentication",
+  "tasks": [
+    {
+      "title": "Implement email and password registration",
+      "priority": "High"
+    },
+    {
+      "title": "Implement password reset functionality",
+      "priority": "Medium"
+    }
+  ]
+}

@@ -2,6 +2,8 @@ from ollama import chat
 from pydantic import BaseModel
 from typing import List
 import json
+import os
+import re
 
 # -----------------------------
 # Output Schema
@@ -89,10 +91,16 @@ try:
 
     output = Output(**data)
 
-    print(json.dumps(output.model_dump(), indent=2))
+    epics_dir = "epics"
+    os.makedirs(epics_dir, exist_ok=True)
 
-    with open("tasks.json", "w") as f:
-        json.dump(output.model_dump(), f, indent=2)
+    for epic in output.epics:
+        safe_name = re.sub(r'[^\w\-_ ]', '', epic.epic).strip().replace(' ', '_')
+        filename = f"{safe_name}.json"
+        filepath = os.path.join(epics_dir, filename)
+        with open(filepath, "w") as f:
+            json.dump(epic.model_dump(), f, indent=2)
+        print(f"Wrote {filepath}")
 
 except Exception as e:
     print("Failed parsing JSON:")
