@@ -75,6 +75,9 @@ El objetivo es demostrar un pipeline donde una necesidad expresada en lenguaje n
 
 ## Resultados Obtenidos
 
+![Screenshot](evidencia/chat-opencode.png)
+
+
 1. **Generación automática de requerimientos:** El agente PM procesó exitosamente la historia de usuario y produjo un epic (`Landing Page Development`) con dos tareas priorizadas:
    - *Design and Develop Landing Page Layout* — Prioridad: **Alta**
    - *Implement Get Started and Learn More Buttons* — Prioridad: **Media**
@@ -102,3 +105,4 @@ El objetivo es demostrar un pipeline donde una necesidad expresada en lenguaje n
 3. **Sin tests automatizados:** No hay tests unitarios ni de integración para el agente PM, lo que dificulta la detección de regresiones al modificar prompts o modelos.
 
 4. **Manejo de errores básico:** Si el LLM devuelve JSON mal formado, el script imprime el error y el contenido crudo, pero no reintenta ni implementa estrategias de reparación (ej. resubir con corrección o fallback a parsing parcial).
+
