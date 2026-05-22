@@ -1,4 +1,4 @@
-As a user, I want to see a landing page when I visit the website so taht I can quickly understand the product or service being offered
+As a user, I want to see a landing page when I visit the website so that I can quickly understand the product or service being offered
 
 Acceptance Criteria:
 - Clean display of headline a short description

@@ -75,7 +75,7 @@ El objetivo es demostrar un pipeline donde una necesidad expresada en lenguaje n
 
 ## Resultados Obtenidos
 
-![Screenshot](evidencia/chat-opencode.png)
+![Screenshot](evidencia/chat-opencode1.png)
 
 
 1. **Generación automática de requerimientos:** El agente PM procesó exitosamente la historia de usuario y produjo un epic (`Landing Page Development`) con dos tareas priorizadas:
