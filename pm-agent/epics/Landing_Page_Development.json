@@ -1,0 +1,13 @@
+{
+  "epic": "Landing Page Development",
+  "tasks": [
+    {
+      "title": "Design and Develop Landing Page Layout",
+      "priority": "High"
+    },
+    {
+      "title": "Implement Get Started and Learn More Buttons",
+      "priority": "Medium"
+    }
+  ]
+}

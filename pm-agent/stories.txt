@@ -1,6 +1,5 @@
-As a user, I want to login to acess the platform.
+As a user, I want to see a landing page when I visit the website so taht I can quickly understand the product or service being offered
 
 Acceptance Criteria:
-- Valid email
-- JWT authentication
-- Password recovery functionality
+- Clean display of headline a short description
+- Get Started or Learn More button
